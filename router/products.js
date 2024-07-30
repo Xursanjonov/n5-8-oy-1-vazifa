@@ -19,6 +19,23 @@ product.get('/', (req, res) => {
         payload: products
     })
 })
+// product detail get
+product.get(`/:id`, (req, res) => {
+    let id = req.params.id
+    const product = products.findfind(el => el.id === +id)
+    if (product) {
+        res.status(200).json({
+            msg: 'Mahsulot',
+            variant: 'Success',
+            payload: product
+        })
+    }
+    return res.status(400).json({
+        msg: 'Malumot topilmadi',
+        variant: 'error',
+        payload: null
+    })
+})
 // products POST
 product.post('/', (req, res) => {
     const conflig = products.find(el => el.title === req.body.title)
