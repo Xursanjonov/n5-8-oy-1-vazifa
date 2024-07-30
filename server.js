@@ -124,42 +124,42 @@ const DATA = {
         },
         {
             id: 2,
-            title: "Samsung",
-            price: 120,
-            oldPrice: 180,
-            count: 8,
+            title: "Phones",
+            price: 250,
+            oldPrice: 274,
+            count: 1,
             category: "phone",
-            url: ["image 1", "image 2"],
+            url: ["https://blog.unguess.io/hubfs/smartphone%20update-1.png", "https://i.ytimg.com/vi/GkFl3c-Zvx0/maxresdefault.jpg"],
             desc: "Fruits"
         },
         {
             id: 3,
-            title: "Apple iPhone 13",
-            price: 999,
-            oldPrice: 1099,
+            title: "iPhone 13",
+            price: 555,
+            oldPrice: 631,
             count: 7,
             category: "Apple",
-            url: ["image 3", "image 4"],
+            url: ["https://m.media-amazon.com/images/I/71Gu0e-vdNL.__AC_SX300_SY300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/617TKRByBpL._AC_SX679_.jpg", "https://m.media-amazon.com/images/I/81ANqRSTvmL._AC_SX679_.jpg"],
             desc: "Fruits"
         },
         {
             id: 4,
-            title: "Apple MacBook Pro",
-            price: 2500,
-            oldPrice: 2700,
+            title: "MacBook Pro",
+            price: 999,
+            oldPrice: 1230,
             count: 3,
             category: "Apple",
-            url: ["image 5", "image 6"],
+            url: ["https://m.media-amazon.com/images/I/61CHqS31PiL._AC_SX522_.jpg","https://m.media-amazon.com/images/I/71bSZAYcsbL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/810RmaVJvtL._AC_SX522_.jpg"],
             desc: "Fruits"
         },
         {
             id: 5,
-            title: "Samsung Galaxy Tab",
+            title: "Samsung Galaxy Tab S9",
             price: 400,
             oldPrice: 450,
             count: 10,
             category: "Samsung",
-            url: ["image 7", "image 8"],
+            url: ["https://m.media-amazon.com/images/I/61d46oYQgdL.__AC_SX300_SY300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/61NTjkCP3vL._AC_SX466_.jpg"],
             desc: "Fruits"
         },
         {
@@ -169,7 +169,7 @@ const DATA = {
             oldPrice: 550,
             count: 6,
             category: "Gaming",
-            url: ["image 9", "image 10"],
+            url: ["https://m.media-amazon.com/images/I/21pybROD6BL._SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/51v1iiwtHkL._SX522_.jpg"],
             desc: "Fruits"
         },
         {
@@ -179,7 +179,7 @@ const DATA = {
             oldPrice: 350,
             count: 15,
             category: "Gaming",
-            url: ["image 11", "image 12"],
+            url: ["https://m.media-amazon.com/images/I/41S2ZmCRO9L._SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/61Vy4+0XqJL._SX522_.jpg"],
             desc: "Fruits"
         },
         {
@@ -189,7 +189,7 @@ const DATA = {
             oldPrice: 1300,
             count: 4,
             category: "Computers",
-            url: ["image 13", "image 14"],
+            url: ["https://m.media-amazon.com/images/I/71Ir4cW5GNL.__AC_SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/61-NAS2Y-3L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61No0-SXL8L._AC_SX679_.jpg"],
             desc: "Fruits"
         },
         {
@@ -199,7 +199,7 @@ const DATA = {
             oldPrice: 1250,
             count: 2,
             category: "Computers",
-            url: ["image 15", "image 16"],
+            url: ["https://m.media-amazon.com/images/I/61wdZ89-JWL.__AC_SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/613hlvL2lHL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/5171HN86xqL._AC_SX466_.jpg"],
             desc: "Fruits"
         },
         {
@@ -209,7 +209,7 @@ const DATA = {
             oldPrice: 1150,
             count: 5,
             category: "Computers",
-            url: ["image 17", "image 18"],
+            url: ["https://m.media-amazon.com/images/I/515nMh4oT9S._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/618+M+0QsdL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/51TyBSK8qJL._AC_SX466_.jpg"],
             desc: "Fruits"
         }
     ],
@@ -217,22 +217,22 @@ const DATA = {
         {
             id: 1,
             name: "Samsung",
-            url: "image 1"
+            url: "https://1000logos.net/wp-content/uploads/2017/06/Font-Samsung-Logo.jpg"
         },
         {
             id: 2,
             name: "Apple",
-            url: "image 2"
+            url: "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png"
         },
         {
             id: 3,
             name: "Gaming",
-            url: "image 3"
+            url: "https://static.vecteezy.com/system/resources/previews/002/144/780/non_2x/gaming-banner-for-games-with-glitch-effect-neon-light-on-text-illustration-design-free-vector.jpg"
         },
         {
             id: 4,
             name: "Computers",
-            url: "image 4"
+            url: "https://cdn.shopify.com/s/files/1/1815/3725/files/computer_1024x1024.png?v=1535890325"
         }
     ]
 }
