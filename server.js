@@ -9,7 +9,8 @@ const DATA = {
             address: "address 1",
             phone: "phone 1",
             email: "email 1",
-            image: "image 1"
+            image: "https://thumbs.dreamstime.com/b/laptop-computer-user-icon-vector-isolated-white-person-work-online-pictogram-business-worker-analyst-student-coder-customer-316853739.jpg",
+            age: 14
         },
         {
             id: 2,
@@ -20,7 +21,8 @@ const DATA = {
             address: "address 2",
             phone: "phone 2",
             email: "email 2",
-            image: "image 2"
+            image: "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=2081",
+            age: 32
         },
         {
             id: 3,
@@ -31,7 +33,8 @@ const DATA = {
             address: "address 3",
             phone: "phone 3",
             email: "email 3",
-            image: "image 3"
+            image: "https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png",
+            age: 11
         },
         {
             id: 4,
@@ -42,7 +45,8 @@ const DATA = {
             address: "address 4",
             phone: "phone 4",
             email: "email 4",
-            image: "image 4"
+            image: "https://img.freepik.com/premium-photo/cute-children-baby-boy-smiling-reading-book-white-background-generative-by-ai_39704-6017.jpg",
+            age: 17
         },
         {
             id: 5,
@@ -53,7 +57,8 @@ const DATA = {
             address: "address 5",
             phone: "phone 5",
             email: "email 5",
-            image: "image 5"
+            image: "https://play-lh.googleusercontent.com/tryRowcXJHdoAT0SIO-WBxEdudjvZmTicjuVHJuadKAJ76KgKiq22hMqDXB9sCq3pw=w240-h480-rw",
+            age: 50
         },
         {
             id: 6,
@@ -64,7 +69,8 @@ const DATA = {
             address: "address 6",
             phone: "phone 6",
             email: "email 6",
-            image: "image 6"
+            image: "https://miro.medium.com/v2/resize:fit:640/1*U8H1ne3vkauWzQzX5CdQUQ.jpeg",
+            age: 9
         },
         {
             id: 7,
@@ -75,7 +81,8 @@ const DATA = {
             address: "address 7",
             phone: "phone 7",
             email: "email 7",
-            image: "image 7"
+            image: "https://wallpapercave.com/wp/wp5080768.jpg",
+            age: 20
         },
         {
             id: 8,
@@ -86,7 +93,8 @@ const DATA = {
             address: "address 8",
             phone: "phone 8",
             email: "email 8",
-            image: "image 8"
+            image: "https://images.pexels.com/photos/1071785/pexels-photo-1071785.jpeg?cs=srgb&dl=pexels-creationsbyfaik-1071785.jpg&fm=jpg",
+            age: 39
         },
         {
             id: 9,
@@ -97,7 +105,8 @@ const DATA = {
             address: "address 9",
             phone: "phone 9",
             email: "email 9",
-            image: "image 9"
+            image: "https://play-lh.googleusercontent.com/tryRowcXJHdoAT0SIO-WBxEdudjvZmTicjuVHJuadKAJ76KgKiq22hMqDXB9sCq3pw=w240-h480-rw",
+            age: 22
         },
         {
             id: 10,
@@ -108,7 +117,8 @@ const DATA = {
             address: "address 10",
             phone: "phone 10",
             email: "email 10",
-            image: "image 10"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6BAHlIuDPK6lkExHi1DWN6cdzB2OJkmSSMNxEhQXpLnHQ3fslHw7AqUJsZEDvu85xhWw&usqp=CAU",
+            age: 20
         }
     ],
     products: [
@@ -149,7 +159,7 @@ const DATA = {
             oldPrice: 1230,
             count: 3,
             category: "Apple",
-            url: ["https://m.media-amazon.com/images/I/61CHqS31PiL._AC_SX522_.jpg","https://m.media-amazon.com/images/I/71bSZAYcsbL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/810RmaVJvtL._AC_SX522_.jpg"],
+            url: ["https://m.media-amazon.com/images/I/61CHqS31PiL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/71bSZAYcsbL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/810RmaVJvtL._AC_SX522_.jpg"],
             desc: "Fruits"
         },
         {
@@ -189,7 +199,7 @@ const DATA = {
             oldPrice: 1300,
             count: 4,
             category: "Computers",
-            url: ["https://m.media-amazon.com/images/I/71Ir4cW5GNL.__AC_SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/61-NAS2Y-3L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61No0-SXL8L._AC_SX679_.jpg"],
+            url: ["https://m.media-amazon.com/images/I/71Ir4cW5GNL.__AC_SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/61-NAS2Y-3L._AC_SX679_.jpg", "https://m.media-amazon.com/images/I/61No0-SXL8L._AC_SX679_.jpg"],
             desc: "Fruits"
         },
         {
@@ -199,7 +209,7 @@ const DATA = {
             oldPrice: 1250,
             count: 2,
             category: "Computers",
-            url: ["https://m.media-amazon.com/images/I/61wdZ89-JWL.__AC_SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/613hlvL2lHL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/5171HN86xqL._AC_SX466_.jpg"],
+            url: ["https://m.media-amazon.com/images/I/61wdZ89-JWL.__AC_SY300_SX300_QL70_FMwebp_.jpg", "https://m.media-amazon.com/images/I/613hlvL2lHL._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/5171HN86xqL._AC_SX466_.jpg"],
             desc: "Fruits"
         },
         {
@@ -209,7 +219,7 @@ const DATA = {
             oldPrice: 1150,
             count: 5,
             category: "Computers",
-            url: ["https://m.media-amazon.com/images/I/515nMh4oT9S._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/618+M+0QsdL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/51TyBSK8qJL._AC_SX466_.jpg"],
+            url: ["https://m.media-amazon.com/images/I/515nMh4oT9S._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/618+M+0QsdL._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/51TyBSK8qJL._AC_SX466_.jpg"],
             desc: "Fruits"
         }
     ],
